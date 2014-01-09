@@ -20,6 +20,10 @@ creates ```README.as```, which binary data could be retrieved by:
     var bytes:ByteArray = README.bytes
 
 
+Another example which specifies output package and class names:
+
+    $ ./embed_bytes_as3.rb LICENSE.md -o net.kaikoga.License README.md -o net.kaikoga.Readme
+
 Copyright
 ---------
 
